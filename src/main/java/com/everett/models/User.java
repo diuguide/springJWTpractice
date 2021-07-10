@@ -1,9 +1,9 @@
 package com.everett.models;
 
-
 import org.springframework.stereotype.Component;
 
 import javax.persistence.*;
+
 
 @Component
 @Entity
@@ -14,10 +14,14 @@ public class User {
     @Column(name="userId")
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private int userId;
+
     @Column(name="username")
     private String username;
+
     @Column(name="password")
     private String password;
+
+
     @Column(name="email")
     private String email;
 
