@@ -1,10 +1,10 @@
-package com.everett.practice;
+package com.everett.springbootpractice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PracticeApplicationTests {
+class SpringbootpracticeApplicationTests {
 
 	@Test
 	void contextLoads() {
